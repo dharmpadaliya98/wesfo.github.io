@@ -1,664 +1,384 @@
 {
   "Files": [
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bioworld.bundle.scp.css",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bioworld.bundle.scp.css",
       "PackagePath": "staticwebassets\\Bioworld.bundle.scp.css"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\all.min.css",
-      "PackagePath": "staticwebassets\\css\\all.min.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\aos.css",
-      "PackagePath": "staticwebassets\\css\\aos.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\css.css",
-      "PackagePath": "staticwebassets\\css\\css.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\magnific-popup.css",
-      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\nice-select.css",
-      "PackagePath": "staticwebassets\\css\\nice-select.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\slick-theme.css",
-      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\slick.css",
-      "PackagePath": "staticwebassets\\css\\slick.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\www-player.css",
-      "PackagePath": "staticwebassets\\css\\www-player.css"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
-      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\fonts\\fontello.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontello.eot"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
-      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\fonts\\fontello.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontello.svg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
-      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\fonts\\fontello.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontello.ttf"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
-      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\fonts\\fontello.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontello.woff"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\fonts\\fontello.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontello.woff2"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\2 (1).jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2 (2).jpg",
+      "PackagePath": "staticwebassets\\images\\2 (2).jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\4 (1).jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (2).jpg",
+      "PackagePath": "staticwebassets\\images\\4 (2).jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\6 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\6 (1).jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_01.png",
+      "PackagePath": "staticwebassets\\images\\bg_01.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_02 (1).png",
+      "PackagePath": "staticwebassets\\images\\bg_02 (1).png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfBBc4.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfBBc4.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_02.png",
+      "PackagePath": "staticwebassets\\images\\bg_02.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_9.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_9.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\blank.gif",
+      "PackagePath": "staticwebassets\\images\\blank.gif"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1.png",
+      "PackagePath": "staticwebassets\\images\\ico_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_10.png",
+      "PackagePath": "staticwebassets\\images\\ico_10.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_11.png",
+      "PackagePath": "staticwebassets\\images\\ico_11.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu4WxKOzY.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu4WxKOzY.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_12.png",
+      "PackagePath": "staticwebassets\\images\\ico_12.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu4mxK.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu4mxK.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_13.png",
+      "PackagePath": "staticwebassets\\images\\ico_13.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu5mxKOzY.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu5mxKOzY.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_14.png",
+      "PackagePath": "staticwebassets\\images\\ico_14.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu72xKOzY.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu72xKOzY.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_15.png",
+      "PackagePath": "staticwebassets\\images\\ico_15.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu7GxKOzY.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu7GxKOzY.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_16.png",
+      "PackagePath": "staticwebassets\\images\\ico_16.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu7WxKOzY.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu7WxKOzY.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_17.png",
+      "PackagePath": "staticwebassets\\images\\ico_17.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu7mxKOzY.woff2",
-      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu7mxKOzY.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_18.png",
+      "PackagePath": "staticwebassets\\images\\ico_18.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-brands-400.ttf",
-      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_19.png",
+      "PackagePath": "staticwebassets\\images\\ico_19.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-brands-400.woff2",
-      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1_1.png",
+      "PackagePath": "staticwebassets\\images\\ico_1_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-regular-400.ttf",
-      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_2 (1).png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-regular-400.woff2",
-      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2.png",
+      "PackagePath": "staticwebassets\\images\\ico_2.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-solid-900.ttf",
-      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2_1.png",
+      "PackagePath": "staticwebassets\\images\\ico_2_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-solid-900.woff2",
-      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3.png",
+      "PackagePath": "staticwebassets\\images\\ico_3.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-v4compatibility.ttf",
-      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.ttf"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3_1.png",
+      "PackagePath": "staticwebassets\\images\\ico_3_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-v4compatibility.woff2",
-      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.woff2"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_4 (1).png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\banner1.png",
-      "PackagePath": "staticwebassets\\images\\banner1.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4.png",
+      "PackagePath": "staticwebassets\\images\\ico_4.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\banner3.png",
-      "PackagePath": "staticwebassets\\images\\banner3.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4_1.png",
+      "PackagePath": "staticwebassets\\images\\ico_4_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\banner4.png",
-      "PackagePath": "staticwebassets\\images\\banner4.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_5 (1).png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\bg3.png",
-      "PackagePath": "staticwebassets\\images\\bg3.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5.png",
+      "PackagePath": "staticwebassets\\images\\ico_5.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat10.png",
-      "PackagePath": "staticwebassets\\images\\cat10.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5_1.png",
+      "PackagePath": "staticwebassets\\images\\ico_5_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat11.png",
-      "PackagePath": "staticwebassets\\images\\cat11.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_6.png",
+      "PackagePath": "staticwebassets\\images\\ico_6.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat2.png",
-      "PackagePath": "staticwebassets\\images\\cat2.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_7.png",
+      "PackagePath": "staticwebassets\\images\\ico_7.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat3.png",
-      "PackagePath": "staticwebassets\\images\\cat3.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_8.png",
+      "PackagePath": "staticwebassets\\images\\ico_8.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat4.png",
-      "PackagePath": "staticwebassets\\images\\cat4.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_9.png",
+      "PackagePath": "staticwebassets\\images\\ico_9.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat5.png",
-      "PackagePath": "staticwebassets\\images\\cat5.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\images\\img_1.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat6.png",
-      "PackagePath": "staticwebassets\\images\\cat6.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_1.png",
+      "PackagePath": "staticwebassets\\images\\img_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat7.png",
-      "PackagePath": "staticwebassets\\images\\cat7.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_7.jpg",
+      "PackagePath": "staticwebassets\\images\\img_7.jpg"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat8.png",
-      "PackagePath": "staticwebassets\\images\\cat8.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\logo_1 (1).png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat9.png",
-      "PackagePath": "staticwebassets\\images\\cat9.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_1.png",
+      "PackagePath": "staticwebassets\\images\\logo_1.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon1.png",
-      "PackagePath": "staticwebassets\\images\\ctg_icon1.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_2.png",
+      "PackagePath": "staticwebassets\\images\\logo_2.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon2.png",
-      "PackagePath": "staticwebassets\\images\\ctg_icon2.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_3.png",
+      "PackagePath": "staticwebassets\\images\\logo_3.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon4.png",
-      "PackagePath": "staticwebassets\\images\\ctg_icon4.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\slogan.png",
+      "PackagePath": "staticwebassets\\images\\slogan.png"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon5.png",
-      "PackagePath": "staticwebassets\\images\\ctg_icon5.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\deals1.png",
-      "PackagePath": "staticwebassets\\images\\deals1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\deals2.png",
-      "PackagePath": "staticwebassets\\images\\deals2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\deals3.png",
-      "PackagePath": "staticwebassets\\images\\deals3.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\footer.png",
-      "PackagePath": "staticwebassets\\images\\footer.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery1.png",
-      "PackagePath": "staticwebassets\\images\\gallery1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery4.png",
-      "PackagePath": "staticwebassets\\images\\gallery4.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery5.png",
-      "PackagePath": "staticwebassets\\images\\gallery5.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery6.png",
-      "PackagePath": "staticwebassets\\images\\gallery6.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery7.png",
-      "PackagePath": "staticwebassets\\images\\gallery7.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\icon.png",
-      "PackagePath": "staticwebassets\\images\\icon.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram1.png",
-      "PackagePath": "staticwebassets\\images\\instagram1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram3.png",
-      "PackagePath": "staticwebassets\\images\\instagram3.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram4.png",
-      "PackagePath": "staticwebassets\\images\\instagram4.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram5.png",
-      "PackagePath": "staticwebassets\\images\\instagram5.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\logo2.png",
-      "PackagePath": "staticwebassets\\images\\logo2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\mega1.png",
-      "PackagePath": "staticwebassets\\images\\mega1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\mega2.png",
-      "PackagePath": "staticwebassets\\images\\mega2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\meta1.png",
-      "PackagePath": "staticwebassets\\images\\meta1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer1.png",
-      "PackagePath": "staticwebassets\\images\\offer1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer3.png",
-      "PackagePath": "staticwebassets\\images\\offer3.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer4.png",
-      "PackagePath": "staticwebassets\\images\\offer4.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer5.png",
-      "PackagePath": "staticwebassets\\images\\offer5.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\payment.png",
-      "PackagePath": "staticwebassets\\images\\payment.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product1.png",
-      "PackagePath": "staticwebassets\\images\\product1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product10.png",
-      "PackagePath": "staticwebassets\\images\\product10.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product11.png",
-      "PackagePath": "staticwebassets\\images\\product11.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product12.png",
-      "PackagePath": "staticwebassets\\images\\product12.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product13.png",
-      "PackagePath": "staticwebassets\\images\\product13.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product14.png",
-      "PackagePath": "staticwebassets\\images\\product14.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product16.png",
-      "PackagePath": "staticwebassets\\images\\product16.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product17.png",
-      "PackagePath": "staticwebassets\\images\\product17.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product2.png",
-      "PackagePath": "staticwebassets\\images\\product2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product23.png",
-      "PackagePath": "staticwebassets\\images\\product23.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product40.png",
-      "PackagePath": "staticwebassets\\images\\product40.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product5.png",
-      "PackagePath": "staticwebassets\\images\\product5.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product53.png",
-      "PackagePath": "staticwebassets\\images\\product53.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product6.png",
-      "PackagePath": "staticwebassets\\images\\product6.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product7.png",
-      "PackagePath": "staticwebassets\\images\\product7.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product8.png",
-      "PackagePath": "staticwebassets\\images\\product8.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product9.png",
-      "PackagePath": "staticwebassets\\images\\product9.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty1.png",
-      "PackagePath": "staticwebassets\\images\\qlty1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty10.png",
-      "PackagePath": "staticwebassets\\images\\qlty10.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty2.png",
-      "PackagePath": "staticwebassets\\images\\qlty2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty5.png",
-      "PackagePath": "staticwebassets\\images\\qlty5.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty6.png",
-      "PackagePath": "staticwebassets\\images\\qlty6.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty7.png",
-      "PackagePath": "staticwebassets\\images\\qlty7.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty8.png",
-      "PackagePath": "staticwebassets\\images\\qlty8.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty9.png",
-      "PackagePath": "staticwebassets\\images\\qlty9.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\sale1.png",
-      "PackagePath": "staticwebassets\\images\\sale1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\sale2.png",
-      "PackagePath": "staticwebassets\\images\\sale2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\sale3.png",
-      "PackagePath": "staticwebassets\\images\\sale3.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape1.png",
-      "PackagePath": "staticwebassets\\images\\shape1.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape11.png",
-      "PackagePath": "staticwebassets\\images\\shape11.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape12.png",
-      "PackagePath": "staticwebassets\\images\\shape12.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape2.png",
-      "PackagePath": "staticwebassets\\images\\shape2.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape3.png",
-      "PackagePath": "staticwebassets\\images\\shape3.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape4.png",
-      "PackagePath": "staticwebassets\\images\\shape4.png"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3e",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E",
       "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team3.png",
-      "PackagePath": "staticwebassets\\images\\team3.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (1)",
+      "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team4.png",
-      "PackagePath": "staticwebassets\\images\\team4.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (2)",
+      "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team5.png",
-      "PackagePath": "staticwebassets\\images\\team5.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (3)",
+      "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team6.png",
-      "PackagePath": "staticwebassets\\images\\team6.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (4)",
+      "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\testimonial1.png",
-      "PackagePath": "staticwebassets\\images\\testimonial1.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (5)",
+      "PackagePath": "staticwebassets\\images"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\testimonial2.png",
-      "PackagePath": "staticwebassets\\images\\testimonial2.png"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\AuthenticationService.js",
+      "PackagePath": "staticwebassets\\js\\AuthenticationService.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\aos.js",
-      "PackagePath": "staticwebassets\\js\\aos.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\ViewportInfoService.js",
+      "PackagePath": "staticwebassets\\js\\ViewportInfoService.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\base.js",
-      "PackagePath": "staticwebassets\\js\\base.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\analytics.js",
+      "PackagePath": "staticwebassets\\js\\analytics.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\cast_sender (1).js",
-      "PackagePath": "staticwebassets\\js\\cast_sender (1).js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\controls.js",
+      "PackagePath": "staticwebassets\\js\\controls.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\cast_sender.js",
-      "PackagePath": "staticwebassets\\js\\cast_sender.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\device.min.js",
+      "PackagePath": "staticwebassets\\js\\device.min.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\countdown.min.js",
-      "PackagePath": "staticwebassets\\js\\countdown.min.js"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\custom.js",
-      "PackagePath": "staticwebassets\\js\\custom.js"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\embed.js",
-      "PackagePath": "staticwebassets\\js\\embed.js"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\fetch-polyfill.js",
-      "PackagePath": "staticwebassets\\js\\fetch-polyfill.js"
-    },
-    {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\jquery.min.js",
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\magnific-popup.min.js",
-      "PackagePath": "staticwebassets\\js\\magnific-popup.min.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\js",
+      "PackagePath": "staticwebassets\\js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\nice-select.min.js",
-      "PackagePath": "staticwebassets\\js\\nice-select.min.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\remote.js",
-      "PackagePath": "staticwebassets\\js\\remote.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\map.js",
+      "PackagePath": "staticwebassets\\js\\map.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\serviceworker-kevlar-appshell.js",
-      "PackagePath": "staticwebassets\\js\\serviceworker-kevlar-appshell.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\marker.js",
+      "PackagePath": "staticwebassets\\js\\marker.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\slick.min.js",
-      "PackagePath": "staticwebassets\\js\\slick.min.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\onion.js",
+      "PackagePath": "staticwebassets\\js\\onion.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\sw.js",
-      "PackagePath": "staticwebassets\\js\\sw.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\util.js",
+      "PackagePath": "staticwebassets\\js\\util.js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\www-embed-player.js",
-      "PackagePath": "staticwebassets\\js\\www-embed-player.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\vt",
+      "PackagePath": "staticwebassets\\js"
     },
     {
-      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\x4UJj8gT6CtT5_PZSB2sMkWT7oT3ONYvYheI_Vl_kb0.js",
-      "PackagePath": "staticwebassets\\js\\x4UJj8gT6CtT5_PZSB2sMkWT7oT3ONYvYheI_Vl_kb0.js"
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\vt (1)",
+      "PackagePath": "staticwebassets\\js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\webfont.js",
+      "PackagePath": "staticwebassets\\js\\webfont.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Bioworld.Microsoft.AspNetCore.StaticWebAssets.props",

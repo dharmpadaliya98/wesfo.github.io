@@ -1,80 +1,59 @@
 ﻿@page "/Navbar"
 
-<header class="header_section header_1">
-    <!-- top header start -->
-    <div class="top_header_main d-none d-sm-block">
-        <div class="container">
-            <div class="header_top d-flex align-items-center justify-content-between">
-                <div class="header_top_content d-flex pt-2">
-                    <div class="mail_text_content d-flex">
-                        <p class="mail_icon"><span><i class="far fa-envelope text-white pe-2"></i></span></p>
-                        <p class="mail_text">info@webmail.com</p>
-                    </div>
-                    <div class="address_text_content d-flex">
-                        <p class="mail_icon"><span><i class="fas fa-map-marker-alt text-white pe-2"></i></span></p>
-                        <p class="address_text">15/A, Nest Tower,NYC</p>
-                    </div>
-                </div>
-                <div class="header_top_socials pt-2">
-                    <ul class="list-unstyled d-flex">
-                        <li><a href="#!"><i class="fab fa-facebook-f text-white pe-3"></i></a></li>
-                        <li><a href="#!"><i class="fab fa-instagram text-white pe-3"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- top header end -->
-    <!-- bottom header start -->
-    <div class="header_bottom_main">
-        <div class="container">
-            <!-- web menubar start-->
-            <div class="webMenu d-none d-lg-block position-relative">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand position-relative" href="index.html"><img src="images/logo.png" alt="image_not_found"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav main_menu_list m-auto after_navbar">
-                            <li class="nav-item nav_item_has_child px-2 dropdown">
-                                <a class="nav-link active" aria-current="page" href="#" id="home_submenu" role="button">Home</a>
-                            </li>
-                            
+
+<!-- start top bar -->
+<div id="top-bar" class="top-bar--style-1">
+    <div class="container">
+        <a id="top-bar__logo" class="site-logo" href="index.html">AGRICOM</a>
+
+        <a id="top-bar__navigation-toggler" href="javascript:void(0);"><span></span></a>
+
+        <nav id="top-bar__navigation" role="navigation">
+            <ul>
+                <li class="current">
+                    <a href="javascript:void(0);">Home</a>
+
+                    <div class="submenu">
+                        <ul>
+                            <li class="current"><a href="index.html">Home Style 1</a></li>
+                            <li><a href="../style_2/index.html" target="_blank">Home Style 2</a></li>
+                            <li><a href="../landing/index.html" target="_blank">One Page</a></li>
                         </ul>
                     </div>
-                  
-                </nav>
-                <!-- webmenu bottom shape -->
-                <div class="webmenu_bottom_shape_left position-absolute">
-                    <img src="images/shape1.png" alt="image_not_found">
-                </div>
-            </div>
-            <!-- mobile menubar start -->
-            <div class="mobileMenu d-block d-lg-none">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image_not_found"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                        <div class="offcanvas-header">
-                            <button type="button" class="btn-close mobile_menu_close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav main_menu_list m-auto">
-                                <li class="nav-item pe-4 dropdown">
-                                    <a class="nav-link active" aria-current="page" href="#" id="home_submenu" role="button" >Home</a>
-                                </li>
-                            </ul>
-                        </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">Pages</a>
+
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="products.html">products</a></li>
+                            <li><a href="product_case.html">product case</a></li>
+                            <li><a href="404.html">404 page</a></li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
-        </div>
-        
+                </li>
+                <li>
+                    <a href="javascript:void(0);">Gallery</a>
+
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="gallery_1.html">2 Columns</a></li>
+                            <li><a href="gallery_2.html">3 Columns</a></li>
+                            <li><a href="gallery_3.html">4 Columns</a></li>
+                            <li><a href="gallery_4.html">Masonry</a></li>
+                            <li><a href="gallery_5.html">Masonry 2</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li class="li-btn"><a class="custom-btn primary" href="#spy-get-in-touch">Get in touch</a></li>
+            </ul>
+        </nav>
     </div>
-</header>
+</div>
+<!-- end top bar -->
 @code {
 
 }

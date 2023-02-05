@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\Bioworld.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\Bioworld.csproj",
       "projectName": "Bioworld",
-      "projectPath": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\Bioworld.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\Bioworld.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

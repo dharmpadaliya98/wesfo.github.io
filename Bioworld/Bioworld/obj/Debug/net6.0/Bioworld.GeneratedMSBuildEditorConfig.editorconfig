@@ -9,45 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bioworld
 build_property.RootNamespace = Bioworld
-build_property.ProjectDir = F:\Projects\wesfo-eco-net\Bioworld\Bioworld\
+build_property.ProjectDir = C:\Users\Administrator\Documents\GitHub\wesfo.github.io\Bioworld\Bioworld\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\Projects\wesfo-eco-net\Bioworld\Bioworld
+build_property.MSBuildProjectDirectory = C:\Users\Administrator\Documents\GitHub\wesfo.github.io\Bioworld\Bioworld
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/App.razor]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Pages/Index.razor]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Shared/Navbar.razor]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Shared/SurveyPrompt.razor]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/_Imports.razor]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Shared/MainLayout.razor]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wvsdqu0jkn
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Pages/Error.cshtml]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Pages/_Host.cshtml]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Projects/wesfo-eco-net/Bioworld/Bioworld/Pages/_Layout.cshtml]
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
