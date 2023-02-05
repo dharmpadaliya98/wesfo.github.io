@@ -63,7 +63,6 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
-
 .vegas-overlay, .vegas-slide, .vegas-slide-inner, .vegas-timer, .vegas-wrapper {
     position: absolute;
     top: 0;
@@ -591,6 +590,7 @@ body.vegas-container {
         transform: scale(1) translate(0,0)
     }
 }
+
 
 #vegas-slider {
     position: absolute;

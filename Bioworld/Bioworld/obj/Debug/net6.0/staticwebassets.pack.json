@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\style.min.css",
       "PackagePath": "staticwebassets\\css\\style.min.css"
     },
@@ -81,6 +85,18 @@
       "PackagePath": "staticwebassets\\fonts\\fontello.woff2"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\04.png",
+      "PackagePath": "staticwebassets\\images\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\1 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\1 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\1 (2).jpg",
+      "PackagePath": "staticwebassets\\images\\1 (2).jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\1.jpg",
       "PackagePath": "staticwebassets\\images\\1.jpg"
     },
@@ -93,8 +109,32 @@
       "PackagePath": "staticwebassets\\images\\2 (2).jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2 (3).jpg",
+      "PackagePath": "staticwebassets\\images\\2 (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2 (4).jpg",
+      "PackagePath": "staticwebassets\\images\\2 (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2 (5).jpg",
+      "PackagePath": "staticwebassets\\images\\2 (5).jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\2.jpg",
       "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\3 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\3 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\3 (2).jpg",
+      "PackagePath": "staticwebassets\\images\\3 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\3 (3).jpg",
+      "PackagePath": "staticwebassets\\images\\3 (3).jpg"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\3.jpg",
@@ -105,8 +145,24 @@
       "PackagePath": "staticwebassets\\images\\4 (1).jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (1).png",
+      "PackagePath": "staticwebassets\\images\\4 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (2).jpg",
       "PackagePath": "staticwebassets\\images\\4 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (3).jpg",
+      "PackagePath": "staticwebassets\\images\\4 (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (4).jpg",
+      "PackagePath": "staticwebassets\\images\\4 (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4 (5).jpg",
+      "PackagePath": "staticwebassets\\images\\4 (5).jpg"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\4.jpg",
@@ -117,20 +173,48 @@
       "PackagePath": "staticwebassets\\images\\4.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\5 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\5 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\6 (1).jpg",
       "PackagePath": "staticwebassets\\images\\6 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\6 (2).jpg",
+      "PackagePath": "staticwebassets\\images\\6 (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\6 (3).jpg",
+      "PackagePath": "staticwebassets\\images\\6 (3).jpg"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\6.jpg",
       "PackagePath": "staticwebassets\\images\\6.jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\7 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\7 (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\7.jpg",
       "PackagePath": "staticwebassets\\images\\7.jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\8 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\8 (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\8.jpg",
       "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_01 (1).png",
+      "PackagePath": "staticwebassets\\images\\bg_01 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_01.png",
@@ -141,60 +225,132 @@
       "PackagePath": "staticwebassets\\images\\bg_02 (1).png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_02 (2).png",
+      "PackagePath": "staticwebassets\\images\\bg_02 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_02 (3).png",
+      "PackagePath": "staticwebassets\\images\\bg_02 (3).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_02.png",
       "PackagePath": "staticwebassets\\images\\bg_02.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_9 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\bg_9 (1).jpg"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\bg_9.jpg",
       "PackagePath": "staticwebassets\\images\\bg_9.jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\blank (1).gif",
+      "PackagePath": "staticwebassets\\images\\blank (1).gif"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\blank.gif",
       "PackagePath": "staticwebassets\\images\\blank.gif"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\google_gray.svg",
+      "PackagePath": "staticwebassets\\images\\google_gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1 (2).png",
+      "PackagePath": "staticwebassets\\images\\ico_1 (2).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1.png",
       "PackagePath": "staticwebassets\\images\\ico_1.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_10 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_10 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_10.png",
       "PackagePath": "staticwebassets\\images\\ico_10.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_11 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_11 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_11.png",
       "PackagePath": "staticwebassets\\images\\ico_11.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_12 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_12 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_12.png",
       "PackagePath": "staticwebassets\\images\\ico_12.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_13 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_13 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_13.png",
       "PackagePath": "staticwebassets\\images\\ico_13.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_14 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_14 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_14.png",
       "PackagePath": "staticwebassets\\images\\ico_14.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_15 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_15 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_15.png",
       "PackagePath": "staticwebassets\\images\\ico_15.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_16 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_16 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_16.png",
       "PackagePath": "staticwebassets\\images\\ico_16.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_17 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_17 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_17.png",
       "PackagePath": "staticwebassets\\images\\ico_17.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_18 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_18 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_18.png",
       "PackagePath": "staticwebassets\\images\\ico_18.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_19 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_19 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_19.png",
       "PackagePath": "staticwebassets\\images\\ico_19.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_1_1 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_1_1.png",
@@ -205,16 +361,40 @@
       "PackagePath": "staticwebassets\\images\\ico_2 (1).png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2 (2).png",
+      "PackagePath": "staticwebassets\\images\\ico_2 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2 (3).png",
+      "PackagePath": "staticwebassets\\images\\ico_2 (3).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2.png",
       "PackagePath": "staticwebassets\\images\\ico_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_2_1 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_2_1.png",
       "PackagePath": "staticwebassets\\images\\ico_2_1.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_3 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3 (2).png",
+      "PackagePath": "staticwebassets\\images\\ico_3 (2).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3.png",
       "PackagePath": "staticwebassets\\images\\ico_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_3_1 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_3_1.png",
@@ -225,8 +405,20 @@
       "PackagePath": "staticwebassets\\images\\ico_4 (1).png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4 (2).png",
+      "PackagePath": "staticwebassets\\images\\ico_4 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4 (3).png",
+      "PackagePath": "staticwebassets\\images\\ico_4 (3).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4.png",
       "PackagePath": "staticwebassets\\images\\ico_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_4_1 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_4_1.png",
@@ -237,28 +429,68 @@
       "PackagePath": "staticwebassets\\images\\ico_5 (1).png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5 (2).png",
+      "PackagePath": "staticwebassets\\images\\ico_5 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5 (3).png",
+      "PackagePath": "staticwebassets\\images\\ico_5 (3).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5.png",
       "PackagePath": "staticwebassets\\images\\ico_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_5_1 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_5_1.png",
       "PackagePath": "staticwebassets\\images\\ico_5_1.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_6 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_6 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_6.png",
       "PackagePath": "staticwebassets\\images\\ico_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_7 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_7 (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_7.png",
       "PackagePath": "staticwebassets\\images\\ico_7.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_8 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_8 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_8.png",
       "PackagePath": "staticwebassets\\images\\ico_8.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_9 (1).png",
+      "PackagePath": "staticwebassets\\images\\ico_9 (1).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\ico_9.png",
       "PackagePath": "staticwebassets\\images\\ico_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_1 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\img_1 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_1 (1).png",
+      "PackagePath": "staticwebassets\\images\\img_1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_1 (2).png",
+      "PackagePath": "staticwebassets\\images\\img_1 (2).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_1.jpg",
@@ -269,6 +501,18 @@
       "PackagePath": "staticwebassets\\images\\img_1.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_2.jpg",
+      "PackagePath": "staticwebassets\\images\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\images\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_7 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\img_7 (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\img_7.jpg",
       "PackagePath": "staticwebassets\\images\\img_7.jpg"
     },
@@ -277,16 +521,52 @@
       "PackagePath": "staticwebassets\\images\\logo_1 (1).png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_1 (2).png",
+      "PackagePath": "staticwebassets\\images\\logo_1 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_1 (3).png",
+      "PackagePath": "staticwebassets\\images\\logo_1 (3).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_1.png",
       "PackagePath": "staticwebassets\\images\\logo_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_2 (1).png",
+      "PackagePath": "staticwebassets\\images\\logo_2 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_2 (2).png",
+      "PackagePath": "staticwebassets\\images\\logo_2 (2).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_2.png",
       "PackagePath": "staticwebassets\\images\\logo_2.png"
     },
     {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_3 (1).png",
+      "PackagePath": "staticwebassets\\images\\logo_3 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_3 (2).png",
+      "PackagePath": "staticwebassets\\images\\logo_3 (2).png"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\logo_3.png",
       "PackagePath": "staticwebassets\\images\\logo_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\marker.png",
+      "PackagePath": "staticwebassets\\images\\marker.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\openhand_8_8.cur",
+      "PackagePath": "staticwebassets\\images\\openhand_8_8.cur"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\slogan (1).png",
+      "PackagePath": "staticwebassets\\images\\slogan (1).png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\slogan.png",
@@ -298,6 +578,14 @@
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (1)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (10)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (11)",
       "PackagePath": "staticwebassets\\images"
     },
     {
@@ -314,6 +602,134 @@
     },
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (5)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (6)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (7)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (8)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3E (9)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\transparent.png",
+      "PackagePath": "staticwebassets\\images\\transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (1)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (10)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (11)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (12)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (13)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (14)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (15)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (16)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (17)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (18)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (19)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (2)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (20)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (21)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (22)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (23)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (24)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (25)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (26)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (3)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (4)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (5)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (6)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (7)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (8)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\images\\vt (9)",
       "PackagePath": "staticwebassets\\images"
     },
     {
@@ -379,6 +795,14 @@
     {
       "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\js\\webfont.js",
       "PackagePath": "staticwebassets\\js\\webfont.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\logo\\BioWorldLogoQQ.svg",
+      "PackagePath": "staticwebassets\\logo\\BioWorldLogoQQ.svg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\logo\\WesfoEcoProductsPvtLtdQQ.svg",
+      "PackagePath": "staticwebassets\\logo\\WesfoEcoProductsPvtLtdQQ.svg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Bioworld.Microsoft.AspNetCore.StaticWebAssets.props",
