@@ -1,0 +1,681 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bioworld.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bioworld.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\css.css",
+      "PackagePath": "staticwebassets\\css\\css.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\css\\www-player.css",
+      "PackagePath": "staticwebassets\\css\\www-player.css"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "PackagePath": "staticwebassets\\fonts\\JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfBBc4.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfBBc4.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfBBc4.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu4WxKOzY.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu4WxKOzY.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu5mxKOzY.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu5mxKOzY.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu72xKOzY.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu72xKOzY.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu7GxKOzY.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu7GxKOzY.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu7WxKOzY.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu7WxKOzY.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\KFOmCnqEu92Fr1Mu7mxKOzY.woff2",
+      "PackagePath": "staticwebassets\\fonts\\KFOmCnqEu92Fr1Mu7mxKOzY.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\fonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\banner1.png",
+      "PackagePath": "staticwebassets\\images\\banner1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\banner3.png",
+      "PackagePath": "staticwebassets\\images\\banner3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\banner4.png",
+      "PackagePath": "staticwebassets\\images\\banner4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\bg3.png",
+      "PackagePath": "staticwebassets\\images\\bg3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat10.png",
+      "PackagePath": "staticwebassets\\images\\cat10.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat11.png",
+      "PackagePath": "staticwebassets\\images\\cat11.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat2.png",
+      "PackagePath": "staticwebassets\\images\\cat2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat3.png",
+      "PackagePath": "staticwebassets\\images\\cat3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat4.png",
+      "PackagePath": "staticwebassets\\images\\cat4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat5.png",
+      "PackagePath": "staticwebassets\\images\\cat5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat6.png",
+      "PackagePath": "staticwebassets\\images\\cat6.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat7.png",
+      "PackagePath": "staticwebassets\\images\\cat7.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat8.png",
+      "PackagePath": "staticwebassets\\images\\cat8.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\cat9.png",
+      "PackagePath": "staticwebassets\\images\\cat9.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon1.png",
+      "PackagePath": "staticwebassets\\images\\ctg_icon1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon2.png",
+      "PackagePath": "staticwebassets\\images\\ctg_icon2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon4.png",
+      "PackagePath": "staticwebassets\\images\\ctg_icon4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\ctg_icon5.png",
+      "PackagePath": "staticwebassets\\images\\ctg_icon5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\deals1.png",
+      "PackagePath": "staticwebassets\\images\\deals1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\deals2.png",
+      "PackagePath": "staticwebassets\\images\\deals2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\deals3.png",
+      "PackagePath": "staticwebassets\\images\\deals3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\footer.png",
+      "PackagePath": "staticwebassets\\images\\footer.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery1.png",
+      "PackagePath": "staticwebassets\\images\\gallery1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery4.png",
+      "PackagePath": "staticwebassets\\images\\gallery4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery5.png",
+      "PackagePath": "staticwebassets\\images\\gallery5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery6.png",
+      "PackagePath": "staticwebassets\\images\\gallery6.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\gallery7.png",
+      "PackagePath": "staticwebassets\\images\\gallery7.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\icon.png",
+      "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram1.png",
+      "PackagePath": "staticwebassets\\images\\instagram1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram3.png",
+      "PackagePath": "staticwebassets\\images\\instagram3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram4.png",
+      "PackagePath": "staticwebassets\\images\\instagram4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\instagram5.png",
+      "PackagePath": "staticwebassets\\images\\instagram5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\mega1.png",
+      "PackagePath": "staticwebassets\\images\\mega1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\mega2.png",
+      "PackagePath": "staticwebassets\\images\\mega2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\meta1.png",
+      "PackagePath": "staticwebassets\\images\\meta1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer1.png",
+      "PackagePath": "staticwebassets\\images\\offer1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer3.png",
+      "PackagePath": "staticwebassets\\images\\offer3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer4.png",
+      "PackagePath": "staticwebassets\\images\\offer4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\offer5.png",
+      "PackagePath": "staticwebassets\\images\\offer5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\payment.png",
+      "PackagePath": "staticwebassets\\images\\payment.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product1.png",
+      "PackagePath": "staticwebassets\\images\\product1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product10.png",
+      "PackagePath": "staticwebassets\\images\\product10.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product11.png",
+      "PackagePath": "staticwebassets\\images\\product11.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product12.png",
+      "PackagePath": "staticwebassets\\images\\product12.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product13.png",
+      "PackagePath": "staticwebassets\\images\\product13.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product14.png",
+      "PackagePath": "staticwebassets\\images\\product14.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product16.png",
+      "PackagePath": "staticwebassets\\images\\product16.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product17.png",
+      "PackagePath": "staticwebassets\\images\\product17.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product2.png",
+      "PackagePath": "staticwebassets\\images\\product2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product23.png",
+      "PackagePath": "staticwebassets\\images\\product23.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product40.png",
+      "PackagePath": "staticwebassets\\images\\product40.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product5.png",
+      "PackagePath": "staticwebassets\\images\\product5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product53.png",
+      "PackagePath": "staticwebassets\\images\\product53.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product6.png",
+      "PackagePath": "staticwebassets\\images\\product6.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product7.png",
+      "PackagePath": "staticwebassets\\images\\product7.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product8.png",
+      "PackagePath": "staticwebassets\\images\\product8.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\product9.png",
+      "PackagePath": "staticwebassets\\images\\product9.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty1.png",
+      "PackagePath": "staticwebassets\\images\\qlty1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty10.png",
+      "PackagePath": "staticwebassets\\images\\qlty10.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty2.png",
+      "PackagePath": "staticwebassets\\images\\qlty2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty5.png",
+      "PackagePath": "staticwebassets\\images\\qlty5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty6.png",
+      "PackagePath": "staticwebassets\\images\\qlty6.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty7.png",
+      "PackagePath": "staticwebassets\\images\\qlty7.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty8.png",
+      "PackagePath": "staticwebassets\\images\\qlty8.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\qlty9.png",
+      "PackagePath": "staticwebassets\\images\\qlty9.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\sale1.png",
+      "PackagePath": "staticwebassets\\images\\sale1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\sale2.png",
+      "PackagePath": "staticwebassets\\images\\sale2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\sale3.png",
+      "PackagePath": "staticwebassets\\images\\sale3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape1.png",
+      "PackagePath": "staticwebassets\\images\\shape1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape11.png",
+      "PackagePath": "staticwebassets\\images\\shape11.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape12.png",
+      "PackagePath": "staticwebassets\\images\\shape12.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape2.png",
+      "PackagePath": "staticwebassets\\images\\shape2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape3.png",
+      "PackagePath": "staticwebassets\\images\\shape3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\shape4.png",
+      "PackagePath": "staticwebassets\\images\\shape4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\svg_3e",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team3.png",
+      "PackagePath": "staticwebassets\\images\\team3.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team4.png",
+      "PackagePath": "staticwebassets\\images\\team4.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team5.png",
+      "PackagePath": "staticwebassets\\images\\team5.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\team6.png",
+      "PackagePath": "staticwebassets\\images\\team6.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\testimonial1.png",
+      "PackagePath": "staticwebassets\\images\\testimonial1.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\images\\testimonial2.png",
+      "PackagePath": "staticwebassets\\images\\testimonial2.png"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\base.js",
+      "PackagePath": "staticwebassets\\js\\base.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\cast_sender (1).js",
+      "PackagePath": "staticwebassets\\js\\cast_sender (1).js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\cast_sender.js",
+      "PackagePath": "staticwebassets\\js\\cast_sender.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\countdown.min.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\embed.js",
+      "PackagePath": "staticwebassets\\js\\embed.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\fetch-polyfill.js",
+      "PackagePath": "staticwebassets\\js\\fetch-polyfill.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\nice-select.min.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\remote.js",
+      "PackagePath": "staticwebassets\\js\\remote.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\serviceworker-kevlar-appshell.js",
+      "PackagePath": "staticwebassets\\js\\serviceworker-kevlar-appshell.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\sw.js",
+      "PackagePath": "staticwebassets\\js\\sw.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\www-embed-player.js",
+      "PackagePath": "staticwebassets\\js\\www-embed-player.js"
+    },
+    {
+      "Id": "F:\\Projects\\wesfo-eco-net\\Bioworld\\Bioworld\\wwwroot\\js\\x4UJj8gT6CtT5_PZSB2sMkWT7oT3ONYvYheI_Vl_kb0.js",
+      "PackagePath": "staticwebassets\\js\\x4UJj8gT6CtT5_PZSB2sMkWT7oT3ONYvYheI_Vl_kb0.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Bioworld.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Bioworld.props",
+      "PackagePath": "build\\Bioworld.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Bioworld.props",
+      "PackagePath": "buildMultiTargeting\\Bioworld.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Bioworld.props",
+      "PackagePath": "buildTransitive\\Bioworld.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
