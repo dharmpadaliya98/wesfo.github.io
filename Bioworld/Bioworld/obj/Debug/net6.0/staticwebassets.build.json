@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "buBw4nnPWoUtpgXNktC1aQoNJQBSmleHPHCuuFHhVkc=",
+  "Hash": "ZAwIDjoC9HDvTFMGhXih3/TK7nz50E77BEN66ccVAi0=",
   "Source": "Bioworld",
   "BasePath": "_content/Bioworld",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\main.css",
+      "SourceId": "Bioworld",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\",
+      "BasePath": "_content/Bioworld",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\wesfo.github.io\\Bioworld\\Bioworld\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",

@@ -1,0 +1,33 @@
+﻿@*@inject NavigationManager navigationManager
+@inject IJSRuntime jsRuntime
+@implements IDisposable
+
+@code {
+    string bodyClass { get; set; }
+
+    protected override void OnInitialized()
+    {
+        navigationManager.LocationChanged += OnLocationChangedAsync;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            bodyClass = Shared.ClassSelector.GetClass(navigationManager.ToBaseRelativePath(navigationManager.Uri));
+            await jsRuntime.InvokeVoidAsync("bodyClassMethods.setBodyClass", bodyClass);
+        }
+    }
+
+    public void Dispose()
+    {
+        navigationManager.LocationChanged -= OnLocationChangedAsync;
+    }
+
+    private async void OnLocationChangedAsync(object sender, LocationChangedEventArgs args)
+    {
+        bodyClass = Shared.ClassSelector.GetClass(navigationManager.ToBaseRelativePath(navigationManager.Uri));
+        await jsRuntime.InvokeVoidAsync("bodyClassMethods.setBodyClass", bodyClass);
+        StateHasChanged();
+    }
+}*@

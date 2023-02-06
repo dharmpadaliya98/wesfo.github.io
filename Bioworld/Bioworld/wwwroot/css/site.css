@@ -863,3 +863,157 @@ body.vegas-container {
         letter-spacing: 30px;
     }
 }
+
+
+
+.gm-ui-hover-effect {
+    opacity: .6
+}
+
+    .gm-ui-hover-effect:hover {
+        opacity: 1
+    }
+
+    .gm-ui-hover-effect > span {
+        background-color: #000
+    }
+
+@media (forced-colors:active),(prefers-contrast:more) {
+    .gm-ui-hover-effect > span {
+        background-color: ButtonText
+    }
+}
+
+sentinel {
+}
+
+.gm-style .gm-style-cc a, .gm-style .gm-style-cc button, .gm-style .gm-style-cc span, .gm-style .gm-style-mtc div {
+    font-size: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.gm-style .gm-style-cc a, .gm-style .gm-style-cc button, .gm-style .gm-style-cc span {
+    outline-offset: 3px
+}
+
+sentinel {
+}
+
+@media print {
+    .gm-style .gmnoprint, .gmnoprint {
+        display: none
+    }
+}
+
+@media screen {
+    .gm-style .gmnoscreen, .gmnoscreen {
+        display: none
+    }
+}
+
+
+.dismissButton {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px
+}
+
+    .dismissButton:hover {
+        background-color: rgba(66,133,244,.04);
+        border: 1px solid #d2e3fc
+    }
+
+    .dismissButton:focus {
+        background-color: rgba(66,133,244,.12);
+        border: 1px solid #d2e3fc;
+        outline: 0
+    }
+
+        .dismissButton:focus:not(:focus-visible) {
+            background-color: #fff;
+            border: 1px solid #dadce0;
+            outline: none
+        }
+
+    .dismissButton:focus-visible {
+        background-color: rgba(66,133,244,.12);
+        border: 1px solid #d2e3fc;
+        outline: 0
+    }
+
+    .dismissButton:hover:focus {
+        background-color: rgba(66,133,244,.16);
+        border: 1px solid #d2e2fd
+    }
+
+        .dismissButton:hover:focus:not(:focus-visible) {
+            background-color: rgba(66,133,244,.04);
+            border: 1px solid #d2e3fc
+        }
+
+    .dismissButton:hover:focus-visible {
+        background-color: rgba(66,133,244,.16);
+        border: 1px solid #d2e2fd
+    }
+
+    .dismissButton:active {
+        background-color: rgba(66,133,244,.16);
+        border: 1px solid #d2e2fd;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+        -moz-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+        box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15)
+    }
+
+    .dismissButton:disabled {
+        background-color: #fff;
+        border: 1px solid #f1f3f4;
+        color: #3c4043
+    }
+
+sentinel {
+}
+
+.gm-style-moc {
+    background-color: rgba(0,0,0,.45);
+    pointer-events: none;
+    text-align: center;
+    -webkit-transition: opacity ease-in-out;
+    -o-transition: opacity ease-in-out;
+    transition: opacity ease-in-out
+}
+
+.gm-style-mot {
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%)
+}
+
+sentinel {
+}
+
+.gm-style img {
+    max-width: none;
+}
+
+.gm-style {
+    font: 400 11px Roboto, Arial, sans-serif;
+    text-decoration: none;
+}

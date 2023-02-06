@@ -20,8 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/AboutUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/ContactUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/ClassChanger.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENsYXNzQ2hhbmdlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/Footer.razor]
@@ -30,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/Navbar.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrator/Documents/GitHub/wesfo.github.io/Bioworld/Bioworld/_Imports.razor]
