@@ -1,46 +1,55 @@
-﻿@page "/Navbar"
-@inject NavigationManager NavigationManager
+﻿@inject NavigationManager NavigationManager
+@inject IJSRuntime _js
 
 <!-- start top bar -->
 <div id="top-bar" class="top-bar--style-1">
     <div class="container">
-        <a id="top-bar__logo" class="site-logo" href="index.html">AGRICOM</a>
+        <a id="top-bar__logo" class="site-logo" href="/">AGRICOM</a>
 
         <a id="top-bar__navigation-toggler" href="javascript:void(0);"><span></span></a>
 
-        <nav id="top-bar__navigation" role="navigation">
+        <nav class="mainNav" id="top-bar__navigation" role="navigation">
             <ul>
-                <li class="current">
-                    <a href="javascript:void(0);">Home</a>
-                    
+                <li class=" @GetActive("", NavLinkMatch.All)">
+                    <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("")'>Home</a>
                 </li>
-                <li>
-                    <a href="javascript:void(0);">Products</a>
+                <li class="@GetActive("Products", NavLinkMatch.All)">
+                    <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("Products")'>Products</a>
+                </li>
+                <li class="@GetActive("About-us", NavLinkMatch.All)">
+                    <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("About-us")'>About us</a>
 
-                    
                 </li>
-                <li>
-                    <a href="" onclick="@NavigateToAboutUs">About Us</a>
-                   
+                <li class="@GetActive("Contact-us", NavLinkMatch.All)">
+                    <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("Contact-us")'>Contact us</a>
                 </li>
-                <li><a href="" onclick="@MethodToTriggerUrl">Contacts Us</a></li>
-                <li class="li-btn"><a class="custom-btn primary" href="#spy-get-in-touch">Get in touch</a></li>
+                <li class="li-btn"><a class="custom-btn primary" href="/spy-get-in-touch">Get in touch</a></li>
             </ul>
         </nav>
     </div>
 </div>
 <!-- end top bar -->
 @code {
-   
-    void MethodToTriggerUrl()
+    
+    protected void MenuItemClickHandler(string action)
     {
-        NavigationManager.NavigateTo("/Contactus");
-
-       
-    }
-    void NavigateToAboutUs()
-    {
-        NavigationManager.NavigateTo("/Aboutus");
+        HideNavMenu();
+        NavigationManager.NavigateTo(action);
     }
 
+    protected async void HideNavMenu()
+    {
+        await _js.InvokeVoidAsync("HideNavMenu");
+    }
+
+    bool IsActive(string href, NavLinkMatch navLinkMatch = NavLinkMatch.Prefix)
+    {
+        var relativePath = NavigationManager.ToBaseRelativePath(NavigationManager.Uri).ToLower();
+        return navLinkMatch == NavLinkMatch.All ? relativePath == href.ToLower() : relativePath.StartsWith(href.ToLower());
+    }
+
+
+    string GetActive(string href, NavLinkMatch navLinkMatch = NavLinkMatch.Prefix, bool hasSubmenu = false) => IsActive(href, navLinkMatch) ? "current" + (hasSubmenu ? " menu_open" : "") : "";
+
+    string ToggleMenuClass(string href, NavLinkMatch navLinkMatch = NavLinkMatch.Prefix, bool hasSubmenu = false) => IsActive(href, navLinkMatch) ? " current" : "";
 }

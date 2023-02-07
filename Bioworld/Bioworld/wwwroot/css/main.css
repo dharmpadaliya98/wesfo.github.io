@@ -6327,23 +6327,23 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 .product__item__ico--1:before {
   width: 50px;
-  background-image: url(../img/ico/ico_1.png)
+  background-image: url(../images/ico_1.png)
 }
 .product__item__ico--2:before {
   width: 52px;
-  background-image: url(../img/ico/ico_2.png)
+  background-image: url(../images/ico_2.png)
 }
 .product__item__ico--3:before {
   width: 63px;
-  background-image: url(../img/ico/ico_3.png)
+  background-image: url(../images/ico_3.png)
 }
 .product__item__ico--4:before {
   width: 57px;
-  background-image: url(../img/ico/ico_4.png)
+  background-image: url(../images/ico_4.png)
 }
 .product__item__ico--5:before {
   width: 55px;
-  background-image: url(../img/ico/ico_5.png)
+  background-image: url(../images/ico_5.png)
 }
 .product__item__title {
   font-weight: 500
@@ -6899,27 +6899,27 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .feature--style-1 .feature__item__ico--1:before {
   width: 76px;
   height: 77px;
-  background-image: url(../img/ico/ico_1.png)
+  background-image: url(../images/ico_1.png)
 }
 .feature--style-1 .feature__item__ico--2:before {
   width: 77px;
   height: 76px;
-  background-image: url(../img/ico/ico_2.png)
+  background-image: url(../images/ico_2.png)
 }
 .feature--style-1 .feature__item__ico--3:before {
   width: 83px;
   height: 67px;
-  background-image: url(../img/ico/ico_3.png)
+  background-image: url(../images/ico_3.png)
 }
 .feature--style-1 .feature__item__ico--4:before {
   width: 71px;
   height: 67px;
-  background-image: url(../img/ico/ico_5.png)
+  background-image: url(../images/ico_5.png)
 }
 .feature--style-1 .feature__item__ico--5:before {
   width: 81px;
   height: 72px;
-  background-image: url(../img/ico/ico_4.png)
+  background-image: url(../images/ico_4.png)
 }
 .feature--style-2 .feature__item__ico {
   height: 51px;
@@ -6928,32 +6928,32 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .feature--style-2 .feature__item__ico--1:before {
   width: 46px;
   height: 51px;
-  background-image: url(../img/ico/ico_6.png)
+  background-image: url(../images/ico_6.png)
 }
 .feature--style-2 .feature__item__ico--2:before {
   width: 52px;
   height: 51px;
-  background-image: url(../img/ico/ico_7.png)
+  background-image: url(../images/ico_7.png)
 }
 .feature--style-2 .feature__item__ico--3:before {
   width: 40px;
   height: 51px;
-  background-image: url(../img/ico/ico_8.png)
+  background-image: url(../images/ico_8.png)
 }
 .feature--style-2 .feature__item__ico--4:before {
   width: 40px;
   height: 51px;
-  background-image: url(../img/ico/ico_9.png)
+  background-image: url(../images/ico_9.png)
 }
 .feature--style-2 .feature__item__ico--5:before {
   width: 52px;
   height: 51px;
-  background-image: url(../img/ico/ico_10.png)
+  background-image: url(../images/ico_10.png)
 }
 .feature--style-2 .feature__item__ico--6:before {
   width: 51px;
   height: 47px;
-  background-image: url(../img/ico/ico_11.png)
+  background-image: url(../images/ico_11.png)
 }
 .feature--style-2 [class*=" col-"]:nth-of-type(2n+1) .feature__item .row,
 .feature--style-2 [class^=col-]:nth-of-type(2n+1) .feature__item .row {
@@ -6967,27 +6967,27 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .feature--style-3 .feature__item__ico--1:before {
   width: 76px;
   height: 77px;
-  background-image: url(../img/ico/ico_1_1.png)
+  background-image: url(../images/ico_1_1.png)
 }
 .feature--style-3 .feature__item__ico--2:before {
   width: 77px;
   height: 76px;
-  background-image: url(../img/ico/ico_2_1.png)
+  background-image: url(../images/ico_2_1.png)
 }
 .feature--style-3 .feature__item__ico--3:before {
   width: 83px;
   height: 67px;
-  background-image: url(../img/ico/ico_3_1.png)
+  background-image: url(../images/ico_3_1.png)
 }
 .feature--style-3 .feature__item__ico--4:before {
   width: 71px;
   height: 67px;
-  background-image: url(../img/ico/ico_5_1.png)
+  background-image: url(../images/ico_5_1.png)
 }
 .feature--style-3 .feature__item__ico--5:before {
   width: 81px;
   height: 72px;
-  background-image: url(../img/ico/ico_4_1.png)
+  background-image: url(../images/ico_4_1.png)
 }
 .feature--style-3 .feature__item__title {
   margin-top: 25px;
@@ -7197,22 +7197,22 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .counters--style-1 .counter__item__ico--1:before {
   width: 60px;
   height: 110px;
-  background-image: url(../img/ico/ico_12.png)
+  background-image: url(../images/ico_12.png)
 }
-.counters--style-1 .counter__item__ico--2:before {
-  width: 138px;
-  height: 89px;
-  background-image: url(../img/ico/ico_13.png)
-}
+    .counters--style-1 .counter__item__ico--2:before {
+        width: 138px;
+        height: 89px;
+        background-image: url(../images/ico_13.png)
+    }
 .counters--style-1 .counter__item__ico--3:before {
   width: 125px;
   height: 98px;
-  background-image: url(../img/ico/ico_14.png)
+  background-image: url(../images/ico_14.png)
 }
 .counters--style-1 .counter__item__ico--4:before {
   width: 148px;
   height: 71px;
-  background-image: url(../img/ico/ico_15.png)
+  background-image: url(../images/ico_15.png)
 }
 .counters--style-1 .counter__item__count {
   font-size: 3.9rem
@@ -7232,22 +7232,22 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .counters--style-2 .counter__item__ico--1:before {
   width: 82px;
   height: 93px;
-  background-image: url(../img/ico/ico_16.png)
+  background-image: url(../images/ico_16.png)
 }
 .counters--style-2 .counter__item__ico--2:before {
   width: 75px;
   height: 105px;
-  background-image: url(../img/ico/ico_17.png)
+  background-image: url(../images/ico_17.png)
 }
 .counters--style-2 .counter__item__ico--3:before {
   width: 93px;
   height: 82px;
-  background-image: url(../img/ico/ico_18.png)
+  background-image: url(../images/ico_18.png)
 }
 .counters--style-2 .counter__item__ico--4:before {
   width: 84px;
   height: 84px;
-  background-image: url(../img/ico/ico_19.png)
+  background-image: url(../images/ico_19.png)
 }
 .counters--style-2 .counter__item__count {
   font-size: 6rem;
