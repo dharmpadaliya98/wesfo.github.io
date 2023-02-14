@@ -6808,7 +6808,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     }
 
         .top-bar--style-1:not(.fixed) #top-bar__logo {
-            background-image: url("/logo/BioWorldLogoQQ.svg");
+            background-image: url("../logo/BioWorldLogoQQ.svg");
             background-repeat: no-repeat
 
         }
@@ -9098,7 +9098,10 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     }
 
     #top-bar__navigation {
-        padding-left: 300px
+        display: flex;
+        margin: 0;
+        height: 55px;
+        justify-content: end;
     }
 
     .blog--style-2 [class*=" col-"]:nth-of-type(n+3) .row,
