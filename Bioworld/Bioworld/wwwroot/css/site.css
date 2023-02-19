@@ -549,3 +549,8 @@ sentinel {
         letter-spacing: 30px;
     }
 }
+
+
+#attribution_block {
+    display: none;
+}

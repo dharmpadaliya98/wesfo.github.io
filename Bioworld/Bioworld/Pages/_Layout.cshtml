@@ -5,16 +5,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#4A8B71" />
-    <meta name="msapplication-navbutton-color" content="#4A8B71" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#4A8B71" />
-    <base href="~/" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/site.css" rel="stylesheet" />
-    <link href="css/vegas.min.css" rel="stylesheet" />
-    <link href="Bioworld.styles.css" rel="stylesheet" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="#4A8B71"/>
+    <meta name="msapplication-navbutton-color" content="#4A8B71"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4A8B71"/>
+    <base href="~/"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/site.css" rel="stylesheet"/>
+    <link href="css/vegas.min.css" rel="stylesheet"/>
+    <link href="Bioworld.styles.css" rel="stylesheet"/>
 
 
     <!-- Load google font
@@ -41,35 +41,36 @@
         _html.className = _html.className.replace("no-js", "js");
     </script>
 
-    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered"/>
 </head>
 <body>
-    @RenderBody()
+@RenderBody()
 
-    <div id="blazor-error-ui">
-        <environment include="Staging,Production">
-            An error has occurred. This application may no longer respond until reloaded.
-        </environment>
-        <environment include="Development">
-            An unhandled exception has occurred. See browser dev tools for details.
-        </environment>
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
-    </div>
+<div id="blazor-error-ui">
+    <environment include="Staging,Production">
+        An error has occurred. This application may no longer respond until reloaded.
+    </environment>
+    <environment include="Development">
+        An unhandled exception has occurred. See browser dev tools for details.
+    </environment>
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
 
-    <script src="_framework/blazor.server.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/main.min.js"></script>
-    <script type="text/javascript" src="js/device.min.js"></script>
+<script src="_framework/blazor.server.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+@* <script type="text/javascript" src="js/main.min.js"></script> *@
+@* <script type="text/javascript" src="js/device.min.js"></script> *@
 
 
-    <style type="text/css" id="jarallax-clip-0">
+<style type="text/css" id="jarallax-clip-0">
         #jarallax-container-0 {
             clip: rect(0 975px 600px 0);
             clip: rect(0, 975px, 600px, 0);
         }</style>
 
-    <script type="text/javascript">
+<script type="text/javascript">
     				(function()
     				{
     					var oInterval = setInterval(function ()
@@ -169,10 +170,21 @@
     							});
     						}
     					}, 500);
+						
+						// with vanilla JS
+                        var iso = new Isotope( '.gallery-set', {
+                          itemSelector: '.js-isotope__item',
+                          getSortData: {
+                            category: '[data-cat]'
+                          },
+                        });
+						
     				})();
-    			</script>
+					
+                                
+    </script>
 
-    <script>
+<script>
         function HideNavMenu() {
             var menu = document.getElementsByClassName('mainNav')[0];
             if (hasClass(menu, 'current')) menu.classList.remove('current');
