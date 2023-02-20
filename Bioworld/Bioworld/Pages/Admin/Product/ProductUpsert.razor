@@ -1,30 +1,30 @@
-﻿@page "/Category/create"
-@inject ICategoryRepository CategoryRepository
-@inject NavigationManager NavigationManager
+﻿@page "/product/create"
+@page "/product/edit/{id:int}"
+
+@inject IProductRepository _productRepository
+@inject NavigationManager _navigationManager
 
 <div class="row my-2">
-    <h3 class="card-title text-primary mb-3 ml-3">@Title Category</h3>
+    <h3 class="card-title text-primary mb-3 ml-3">@Title Product</h3>
 
     <div class="col-10">
         @if (IsLoading)
         {
-            <div class="text-center">
-                Loading....
-            </div>
+            <_Loader></_Loader>
         }
         else
         {
-            <EditForm Model="Category" OnValidSubmit="UpsertCategory">
+            <EditForm Model="Product" OnValidSubmit="UpsertProduct">
                 <DataAnnotationsValidator />
                 @*<ValidationSummary/>*@
                 <div class="form-group">
                     <label>Name</label>
-                    <InputText @bind-Value="Category.Name" class="form-control"></InputText>
-                    <ValidationMessage For="() => Category.Name"></ValidationMessage>
+                    <InputText @bind-Value="Product.Name" class="form-control"></InputText>
+                    <ValidationMessage For="()=>Product.Name"></ValidationMessage>
                 </div>
                 <div class="form-group py-2">
                     <button class="btn btn-primary">@Title</button>
-                    <NavLink href="category" class="btn btn-secondary">Back to Index</NavLink>
+                    <NavLink href="Product" class="btn btn-secondary">Back to Index</NavLink>
                 </div>
             </EditForm>
         }
@@ -32,12 +32,14 @@
 </div>
 
 @code {
+
     [Parameter]
     public int Id { get; set; }
-    private CategoryDTO Category { get; set; } = new CategoryDTO();
+
+
+    private ProductDTO Product { get; set; } = new();
     private string Title { get; set; } = "Create";
     public bool IsLoading { get; set; }
-
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
@@ -51,34 +53,33 @@
             {
                 //update
                 Title = "Update";
-                await LoadCategory();
+                await LoadProduct();
             }
         }
 
     }
 
-    private async Task LoadCategory()
+    private async Task LoadProduct()
     {
-        IsLoading=true;
+        IsLoading = true;
         StateHasChanged();
-        Category = await CategoryRepository.Get(Id);
-        IsLoading=false;
+        Product = await _productRepository.Get(Id);
+        IsLoading = false;
         StateHasChanged();
     }
-
-    private async Task UpsertCategory()
+    private async Task UpsertProduct()
     {
-        if (Category.Id == 0)
+        if (Product.Id == 0)
         {
             //create
-           await CategoryRepository.Create(Category);
+            await _productRepository.Create(Product);
         }
         else
         {
             //update
-            await CategoryRepository.Update(Category);
+            await _productRepository.Update(Product);
         }
-        NavigationManager.NavigateTo("category");
+        _navigationManager.NavigateTo("product");
 
 
     }

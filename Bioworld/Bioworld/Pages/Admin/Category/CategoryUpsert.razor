@@ -1,7 +1,6 @@
-﻿﻿@page "/category/create"
-@page "/category/edit/{id:int}"
-@inject ICategoryRepository _categoryRepository
-@inject NavigationManager _navigationManager
+﻿@page "/Category/create"
+@inject ICategoryRepository CategoryRepository
+@inject NavigationManager NavigationManager
 
 <div class="row my-2">
     <h3 class="card-title text-primary mb-3 ml-3">@Title Category</h3>
@@ -9,9 +8,7 @@
     <div class="col-10">
         @if (IsLoading)
         {
-            <div class="text-center">
-                Loading....
-            </div>
+            <_Loader></_Loader>
         }
         else
         {
@@ -21,11 +18,11 @@
                 <div class="form-group">
                     <label>Name</label>
                     <InputText @bind-Value="Category.Name" class="form-control"></InputText>
-                    <ValidationMessage For="()=>Category.Name"></ValidationMessage>
+                    <ValidationMessage For="() => Category.Name"></ValidationMessage>
                 </div>
                 <div class="form-group py-2">
                     <button class="btn btn-primary">@Title</button>
-                    <NavLink href="Product" class="btn btn-secondary">Back to Index</NavLink>
+                    <NavLink href="category" class="btn btn-secondary">Back to Index</NavLink>
                 </div>
             </EditForm>
         }
@@ -33,14 +30,12 @@
 </div>
 
 @code {
-
     [Parameter]
     public int Id { get; set; }
-
-
     private CategoryDTO Category { get; set; } = new CategoryDTO();
     private string Title { get; set; } = "Create";
     public bool IsLoading { get; set; }
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
@@ -62,25 +57,26 @@
 
     private async Task LoadCategory()
     {
-        IsLoading = true;
+        IsLoading=true;
         StateHasChanged();
-        Category = await _categoryRepository.Get(Id);
-        IsLoading = false;
+        Category = await CategoryRepository.Get(Id);
+        IsLoading=false;
         StateHasChanged();
     }
+
     private async Task UpsertCategory()
     {
         if (Category.Id == 0)
         {
             //create
-            await _categoryRepository.Create(Category);
+           await CategoryRepository.Create(Category);
         }
         else
         {
             //update
-            await _categoryRepository.Update(Category);
+            await CategoryRepository.Update(Category);
         }
-        _navigationManager.NavigateTo("category");
+        NavigationManager.NavigateTo("category");
 
 
     }
