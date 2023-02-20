@@ -3045,8 +3045,9 @@ a {
     }
 
 main p {
+    font-size: 18px;
     margin-top: 15px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
     main p:first-child {
@@ -5476,9 +5477,15 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
         background-image: url(../images/ico_15.png)
     }
 
-    .counters--style-1 .counter__item__count {
-        font-size: 3.9rem
+    .counters--style-1 .counter__item__heading {
+        font-size: 30px;
+        margin-bottom: 10px;
+        min-height: 75px;
     }
+
+.counters--style-1 .counter__item__title {
+    font-size: 16px;
+}
 
 .counters--style-2 .counter__item {
     padding-left: 100px
@@ -6808,7 +6815,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     }
 
         .top-bar--style-1:not(.fixed) #top-bar__logo {
-            background-image: url("/logo/BioWorldLogoQQ.svg");
+            background-image: url("../logo/BioWorldLogoQQ.svg");
             background-repeat: no-repeat
 
         }
@@ -9098,7 +9105,10 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     }
 
     #top-bar__navigation {
-        padding-left: 300px
+        display: flex;
+        margin: 0;
+        height: 55px;
+        justify-content: end;
     }
 
     .blog--style-2 [class*=" col-"]:nth-of-type(n+3) .row,
@@ -10250,4 +10260,9 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
         margin-left: auto;
         margin-right: auto
     }
+}
+
+
+.container:hover .attribution {
+    opacity: 0;
 }
