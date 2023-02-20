@@ -1,6 +1,5 @@
-﻿﻿@page "/AvailableProducts"
+﻿@page "/AllProducts"
 @inject IProductRepository ProductRepository
-
 <header class="intro  align-items-center" style="background-image: url('/images/bg_9 (1).jpg');">
 
     <div class="pattern" style="opacity: 0.15;"></div>
@@ -17,51 +16,50 @@
     <div class="container">
         <div class="products">
             <div class="products__inner">
-            @if (ProductsList.Any())
-            {
-                @foreach (var prod in ProductsList)
+                @if (ProductsList.Any())
                 {
-                    <div class="row no-gutters align-items-md-center">
-                        <!-- start item -->
-                        <div class="col-md-6">
-                            <div class="product__item product__item--text">
-                                <i class="product__item__ico product__item__ico--1"></i>
+                    @foreach (var prod in ProductsList)
+                    {
+                        <div class="row no-gutters align-items-md-center">
+                            <!-- start item -->
+                            <div class="col-md-6">
+                                <div class="product__item product__item--text">
+                                    <i class="product__item__ico product__item__ico--1"></i>
 
                                     <h3 class="product__item__title"><a href="#">@prod.Name</a></h3>
 
-                                <p>
-                                        @prod.Desciption
-                                </p>
+                                    <p>
+                                        @prod.Description
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <!-- end item -->
-
-                        <!-- start item -->
-                        <div class="col-md-6">
-                            <div class="product__item product__item--image">
-                                <img class="img-fluid" src="../img/products_img/1.jpg" alt="demo">
+                            <!-- end item -->
+                            <!-- start item -->
+                            <div class="col-md-6">
+                                <div class="product__item product__item--image">
+                                    <img class="img-fluid" src="../img/products_img/1.jpg" alt="demo">
+                                </div>
                             </div>
+                            <!-- end item -->
                         </div>
-                        <!-- end item -->
-                    </div>
-                }
-            }
-            else
-            {
-                if (IsLoading)
-                {
-                    //loading gif
-                    <div class="text-center">
-                        Loading...
-                    </div>
+                    }
                 }
                 else
                 {
-                    //no records
-                    <p>No products found.</p>
+                    if (IsLoading)
+                    {
+                        //loading gif
+                        <div class="text-center">
+                            Loading...
+                        </div>
+                    }
+                    else
+                    {
+                        //no records
+                        <p>No products found.</p>
+                    }
                 }
-            }
-                
+
             </div>
         </div>
     </div>
@@ -97,7 +95,6 @@
                         </div>
                     </div>
                     <!-- end item -->
-
                     <!-- star item -->
                     <div class="col-sm-6 col-md-3">
                         <div class="counter__item">
@@ -118,7 +115,6 @@
                         </div>
                     </div>
                     <!-- end item -->
-
                     <!-- star item -->
                     <div class="col-sm-6 col-md-3">
                         <div class="counter__item">
@@ -136,7 +132,6 @@
                         </div>
                     </div>
                     <!-- end item -->
-
                     <!-- star item -->
                     <div class="col-sm-6 col-md-3">
                         <div class="counter__item">
@@ -157,7 +152,6 @@
                         </div>
                     </div>
                     <!-- end item -->
-
                     <!-- star item -->
                     <div class="col-sm-6 col-md-3">
                         <div class="counter__item">
@@ -208,6 +202,7 @@
         </div>
     </div>
 </section>
+
 
 @code {
     private IEnumerable<ProductDTO> ProductsList { get; set; } = new List<ProductDTO>();

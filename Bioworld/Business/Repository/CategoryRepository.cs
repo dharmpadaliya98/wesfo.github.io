@@ -25,7 +25,7 @@ namespace Business.Repository
         public async Task<CategoryDTO> Create(CategoryDTO objDTO)
         {
             var obj = _mapper.Map<CategoryDTO, Category>(objDTO);
-
+            obj.CreatedDate = DateTime.UtcNow;
             var addedObj = _db.Categories.Add(obj);
             await _db.SaveChangesAsync();
             return _mapper.Map<Category, CategoryDTO>(addedObj.Entity);

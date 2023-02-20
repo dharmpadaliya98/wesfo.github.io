@@ -1,8 +1,7 @@
-using Bioworld.Data;
+using Bioworld.Service;
 using Business.Repository;
 using DataAccess.Data;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,9 +11,13 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders().AddDefaultUI()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+builder.Services.AddScoped<IProductPriceRepository, ProductPriceRepository>();
+builder.Services.AddScoped<IFileUpload, FileUpload>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 var app = builder.Build();
 
@@ -31,8 +34,19 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+SeedDatabase();
 
+app.UseAuthentication();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
 app.Run();
+
+
+
+void SeedDatabase()
+{
+    using var scope = app.Services.CreateScope();
+    var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+    dbInitializer.Initialize();
+}
