@@ -1,0 +1,26 @@
+﻿@page
+@model LogoutModel
+
+@{
+	ViewData["Title"] = "Log out";
+}
+
+<div class="d-flex h-100 flex-column flex-lg-row">
+
+	@*<div class="col-lg-6 p-0 d-flex justify-content-center align-content-center bg-brand-navy" style="background-color: @Model.PartnerStyling.PrimaryColor">
+		<img class="my-4 my-lg-5 login-cinch-logo" src="@Model.PartnerStyling.BrandLogoFilePath" asp-append-version="true" alt="Platform logo" width="272">
+	</div>*@
+
+	<div class="col-lg-6 p-0 d-flex flex-column justify-content-center align-content-center">
+		<div class="ml-5 mt-5">
+			<a class="d-inline-block px-3 py-2 h6 border border-grey rounded-pill bg-light bg-transparent" asp-page="./login">Back To Login</a>
+		</div>
+		<div class="col-lg-8 m-auto px-5 px-lg-0 d-flex flex-column justify-content-center align-content-center">
+			<div class="d-flex flex-column flex-xl-row align-items-xl-center mt-5 mt-lg-0 mb-5">
+				<h1 class="d-inline-block">Log Out</h1>
+			</div>
+			<p class="mb-5 pb-lg-5">You have successfully logged out of the application.</p>
+		</div>
+	</div>
+
+</div>
