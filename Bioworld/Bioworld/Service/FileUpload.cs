@@ -23,21 +23,30 @@ namespace Bioworld.Service
 
         public async Task<string> UploadFile(IBrowserFile file)
         {
-            FileInfo fileInfo = new(file.Name);
-            var fileName = Guid.NewGuid() + fileInfo.Extension;
-            var folderDirectory = $"{_webHostEnvironment.WebRootPath}\\images\\product";
-            if (!Directory.Exists(folderDirectory))
+            try
             {
-                Directory.CreateDirectory(folderDirectory);
+
+                FileInfo fileInfo = new(file.Name);
+                var fileName = Guid.NewGuid() + fileInfo.Extension;
+                var folderDirectory = $"{_webHostEnvironment.WebRootPath}\\images\\product";
+                if (!Directory.Exists(folderDirectory))
+                {
+                    Directory.CreateDirectory(folderDirectory);
+                }
+                var filePath = Path.Combine(folderDirectory, fileName);
+
+                var fs = new FileStream(filePath, FileMode.CreateNew);
+                await file.OpenReadStream().CopyToAsync(fs);
+
+                var fullPath = $"/images/product/{fileName}";
+
+                return fullPath;
             }
-            var filePath = Path.Combine(folderDirectory, fileName);
-
-            var fs = new FileStream(filePath, FileMode.Create);
-            await file.OpenReadStream().CopyToAsync(fs);
-
-            var fullPath = $"/images/product/{fileName}";
-            return fullPath;
-
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }

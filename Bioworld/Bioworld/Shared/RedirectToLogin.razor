@@ -1,0 +1,17 @@
+﻿@inject NavigationManager _nav
+@code {
+
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationStateTask { get; set; }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        var returnUrl = _nav.ToBaseRelativePath(_nav.Uri);
+
+        if (string.IsNullOrWhiteSpace(returnUrl))
+            _nav.NavigateTo("/Identity/Account/Login", true);
+        else
+            _nav.NavigateTo($"/Identity/Account/Login?returnUrl=~/{returnUrl}", true);
+
+    }
+}

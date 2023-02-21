@@ -37,6 +37,7 @@ app.UseRouting();
 SeedDatabase();
 
 app.UseAuthentication();
+app.UseAuthorization();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 

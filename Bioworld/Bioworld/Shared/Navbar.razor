@@ -16,9 +16,17 @@
                 <li class="@GetActive("AllProducts", NavLinkMatch.All)">
                     <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("AllProducts")'>Products</a>
                 </li>
-                <li class="@GetActive("Category", NavLinkMatch.All)">
-                    <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("Category")'>Category</a>
-                </li>
+                <AuthorizeView Roles="Admin">
+                    <Authorized>
+                        <li class="@GetActive("Category", NavLinkMatch.All)">
+                            <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("Category")'>Admin Category</a>
+                        </li>
+                        <li class="@GetActive("AdminProduct", NavLinkMatch.All)">
+                            <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("AdminProduct")'>Admin Product</a>
+                        </li>
+                    </Authorized>
+                </AuthorizeView>
+
                 <li class="@GetActive("About-us", NavLinkMatch.All)">
                     <a href="javascript:void(0);" @onclick='()=>MenuItemClickHandler("About-us")'>About us</a>
 
@@ -33,7 +41,7 @@
 </div>
 <!-- end top bar -->
 @code {
-    
+
     protected void MenuItemClickHandler(string action)
     {
         HideNavMenu();
