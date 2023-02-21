@@ -1,4 +1,5 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime _js
 @*<ClassChanger></ClassChanger>*@
 
 <Navbar></Navbar>
@@ -8,3 +9,18 @@
 <!-- start footer -->
 <Footer></Footer>
 <!-- end footer -->
+@code
+{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            ToggleSlider();
+        }
+    }
+
+    protected async void ToggleSlider()
+    {
+        await _js.InvokeVoidAsync("vegasSlider");
+    }
+}

@@ -6,67 +6,70 @@
 <AuthorizeView Roles="Admin" Context="authorizeContext">
     <Authorized>
 
-
-        <_DeleteConfirmation IsParentComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete_Click"></_DeleteConfirmation>
-        <div class="row mt-4">
-            <div class="col-6">
-                <h4 class="card-title text-primary">Product List</h4>
-            </div>
-            <div class="col-4 offset-2">
-                <a href="product/create" class="btn btn-primary form-control">Add New Product </a>
-            </div>
-            <div class="col-12 p-3">
-                @if (ProductsList.Any())
-                {
-                    <table class="table table-bordered">
-                        <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Shop Favorites</th>
-                            <th>Customer Favorites</th>
-                            <th>Category</th>
-                            <th>Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        @foreach (var prod in ProductsList)
+        <section class="section">
+            <div class="container">
+                <_DeleteConfirmation IsParentComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete_Click"></_DeleteConfirmation>
+                <div class="row mt-4">
+                    <div class="col-6">
+                        <h4 class="card-title text-primary">Product List</h4>
+                    </div>
+                    <div class="col-4 offset-2">
+                        <a href="product/create" class="btn btn-primary form-control">Add New Product </a>
+                    </div>
+                    <div class="col-12 p-3">
+                        @if (ProductsList.Any())
                         {
-                            <tr>
-                                <td>
-                                    @prod.Name
-                                </td>
-                                <th>
-                                    <input type="checkbox" disabled checked="@prod.ShopFavorites">
-                                </th>
-                                <th>
-                                    <input type="checkbox" disabled checked="@prod.CustomerFavorites">
-                                </th>
-                                <th>
-                                    @prod.Category.Name
-                                </th>
-                                <td>
-                                    <NavLink href="@($"product/edit/{prod.Id}")" class="btn-primary btn">Edit</NavLink>
-                                    <button class="btn btn-danger" @onclick="()=>HandleDelete(prod.Id)">Delete</button>
-                                </td>
-                            </tr>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Shop Favorites</th>
+                                        <th>Customer Favorites</th>
+                                        <th>Category</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var prod in ProductsList)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @prod.Name
+                                            </td>
+                                            <th>
+                                                <input type="checkbox" disabled checked="@prod.ShopFavorites">
+                                            </th>
+                                            <th>
+                                                <input type="checkbox" disabled checked="@prod.CustomerFavorites">
+                                            </th>
+                                            <th>
+                                                @prod.Category.Name
+                                            </th>
+                                            <td>
+                                                <NavLink href="@($"product/edit/{prod.Id}")" class="btn-primary btn">Edit</NavLink>
+                                                <button class="btn btn-danger" @onclick="()=>HandleDelete(prod.Id)">Delete</button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
                         }
-                        </tbody>
-                    </table>
-                }
-                else
-                {
-                    if (IsLoading)
-                    {
-                        <_Loader></_Loader>
-                    }
-                    else
-                    {
-                        //no records
-                        <p>No records found.</p>
-                    }
-                }
+                        else
+                        {
+                            if (IsLoading)
+                            {
+                                <_Loader></_Loader>
+                            }
+                            else
+                            {
+                                //no records
+                                <p>No records found.</p>
+                            }
+                        }
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </Authorized>
     <NotAuthorized>
         <p>You don't have permission</p>
