@@ -5414,7 +5414,10 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     color: #4a8b71;
     margin-bottom: 30px
 }
-
+.counter__item iframe{
+    width: 50%;
+    height: 150px;
+}
     .counter__item p {
         margin: 0
     }
