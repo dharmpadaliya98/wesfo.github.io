@@ -9,28 +9,20 @@ function hasClass(element, className) {
 
 window.ShowToastr = (type, message) => {
     if (type === "success") {
-        toastr.success(message, "Operation Successful", { timeOut: 5000 });
+        toastr.success(message, "Operation Successful", {timeOut: 5000});
     }
     if (type === "error") {
-        toastr.error(message, "Operation Failed", { timeOut: 5000 });
+        toastr.error(message, "Operation Failed", {timeOut: 5000});
     }
 }
 
 
 window.ShowSwal = (type, message) => {
     if (type === "success") {
-        Swal.fire(
-            'Success Notification!',
-            message,
-            'success'
-        )
+        Swal.fire('Success Notification!', message, 'success')
     }
     if (type === "error") {
-        Swal.fire(
-            'Error Notification!',
-            message,
-            'error'
-        )
+        Swal.fire('Error Notification!', message, 'error')
     }
 }
 
@@ -80,14 +72,14 @@ function vegasSlider() {
                     dots, a, x;
 
                 slider.vegas({
-                    autoplay: true,
-                    timer: false,
-                    preloadImage: true,
-                    transition: ['fade', 'zoomOut', 'blur', 'swirlLeft', 'swirlRight'],
-                    transitionDuration: 4000,
-                    delay: 5000,
-                    slides: slides,
-                    overlay: '../img/home_img/overlays/04.png',
+                   autoplay: true,
+                        timer: false,
+                        preloadImage: true,
+                        transition: "random",
+                        transitionDuration: 500,
+                        delay: 4000,
+                        slides: slides,
+                        overlay: 'https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/04.png',
                     init: function (globalSettings) {
 
                         if (this.data('dots') == true) {
@@ -149,3 +141,97 @@ function vegasSlider() {
     //});
 
 };
+
+// window.addEventListener('DOMContentLoaded', function () {
+//     (function () {
+//         var oInterval = setInterval(function () {
+//             if (typeof window.jQuery !== 'undefined') {
+//                 clearInterval(oInterval);
+//                 jQuery(document).ready(function ($) {
+//
+//                     // $.vegas.isVideoCompatible = function () {
+//                     //     return true;
+//                     // }
+//                     var slider = $('#vegas-slider'), slides = [{
+//                         name: "", src: 'https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/img_4-1.jpg'
+//                     },
+//
+//                         {
+//                             name: "", src: 'https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/img_1.jpg'
+//                         },
+//
+//                         {
+//                             name: "", src: 'https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/3-1.jpg'
+//                         },
+//
+//                         {
+//                             name: "", src: 'https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/img_3-1.jpg'
+//                         },
+//
+//                     ], slider_content = $('.start-screen__content'), dots, a, x;
+//
+//                     slider.vegas({
+//                         autoplay: true,
+//                         timer: false,
+//                         preloadImage: true,
+//                         transition: "random",
+//                         transitionDuration: 500,
+//                         delay: 4000,
+//                         slides: slides,
+//                         overlay: 'https://ninetheme.com/themes/agricom/wp-content/uploads/2017/02/04.png',
+//                         init: function (globalSettings) {
+//
+//                             if (this.data('dots') == true) {
+//
+//                                 var $this = this, dots = $('<nav class="vegas-dots"></nav>');
+//
+//                                 $this.find('.vegas-control').append(dots);
+//
+//                                 for (var i = 0; i < slides.length; i++) {
+//                                     x = $('<a "href="#" class="paginatorLink"></a>');
+//
+//                                     x.on('click', function (e) {
+//                                         e.preventDefault();
+//
+//                                         $this.vegas('jump', dots.find('a').index(this));
+//                                     });
+//
+//                                     dots.append(x);
+//                                 }
+//                                 ;
+//
+//                                 a = dots.find('a');
+//                                 a.eq(0).addClass('active');
+//
+//                                 slider_content.eq(0).addClass('active');
+//                             }
+//                             ;
+//                         },
+//                         play: function (index, slideSettings) {
+//
+//                         },
+//                         walk: function (index, slideSettings) {
+//
+//                             if (this.data('dots') == true) {
+//
+//                                 a.removeClass('active').eq(index).addClass('active');
+//                             }
+//                             ;
+//
+//                             slider_content.removeClass('active').eq(index).addClass('active');
+//                         }
+//                     });
+//
+//                     $('#vegas-control__prev').on('click', function () {
+//                         slider.vegas('previous');
+//                     });
+//
+//                     $('#vegas-control__next').on('click', function () {
+//                         slider.vegas('next');
+//                     });
+//                 });
+//
+//             }
+//         }, 500);
+//     })();
+// })

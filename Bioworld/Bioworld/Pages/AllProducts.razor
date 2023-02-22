@@ -69,145 +69,45 @@
 <section class="section">
     <div class="container">
         <ul id="gallery-set">
-            <li>
-                <a class="selected" data-cat="*" href="#">All</a>
-            </li>
-            <li>
-                <a data-cat="animals" href="#">Animals</a>
-            </li>
-            <li>
-                <a data-cat="crop" href="#">Crop</a>
-            </li>
-            <li>
-                <a data-cat="fruits" href="#">Fruits</a>
-            </li>
-            <li>
-                <a data-cat="vegatables" href="#">Vegatables</a>
-            </li>
+            @if (ProductsList.Any())
+            {
+                <li>
+                    <a class="selected" data-cat="*" href="#">All</a>
+                </li>
+                @foreach (var prod in ProductsList)
+                {
+                    <li>
+                        <a data-cat="@prod.Category" href="#">@prod.Category</a>
+                    </li>
+                }
+            }
+
         </ul>
         <div class="gallery gallery--style-1">
             <div class="gallery__inner">
                 <div class="row row-no-gutter js-isotope" data-isotope-options="{ &quot;itemSelector&quot;: &quot;.js-isotope__item&quot;, &quot;transitionDuration&quot;: &quot;0.8s&quot;, &quot;percentPosition&quot;: &quot;true&quot;}" style="position: relative; height: 1176.44px;">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item fruits" style="position: absolute; left: 0%; top: 0px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/9-2-510x510.jpg);" alt="Testy Holiday" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/9-2-510x510.jpg);" alt="Testy Holiday">
-                                    </noscript>
-                                    <a title="Testy Holiday" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/9-2.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Testy Holiday</span><span class="gallery__item__subtitle">Fruits </span>
-                                    </a>
-                                </figure>
+                    @if (ProductsList.Any())
+                    {
+                        @foreach (var prod in ProductsList)
+                        {
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item @prod.Category">
+                                <div class="gallery__item">
+                                    <div class="gallery__item__inner">
+                                        <figure>
+                                            <img width="1" height="1" src="@prod.ImageUrl" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/9-2-510x510.jpg);" alt="Testy Holiday" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
+                                            @* <noscript> *@
+                                            @*     <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/9-2-510x510.jpg);" alt="Testy Holiday"> *@
+                                            @* </noscript> *@
+                                            <a title="Testy Holiday" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/9-2.jpg" data-gallery="gall">
+                                                <span class="gallery__item__title">Testy Holiday</span><span class="gallery__item__subtitle">@prod.ImageUrl </span>
+                                            </a>
+                                            <span>@prod.Description</span>
+                                        </figure>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item vegatables" style="position: absolute; left: 50%; top: 0px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/14-510x510.jpg);" alt="Smell Species" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/14-510x510.jpg);" alt="Smell Species">
-                                    </noscript>
-                                    <a title="Smell Species" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/14.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Smell Species</span><span class="gallery__item__subtitle">Vegatables </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item crop" style="position: absolute; left: 0%; top: 294px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/11-510x510.jpg);" alt="Barley" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/11-510x510.jpg);" alt="Barley">
-                                    </noscript>
-                                    <a title="Barley" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/11.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Barley</span><span class="gallery__item__subtitle">Crop </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item crop" style="position: absolute; left: 50%; top: 294px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/1-8-510x510.jpg);" alt="Vegatables Colage" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/1-8-510x510.jpg);" alt="Vegatables Colage">
-                                    </noscript>
-                                    <a title="Vegatables Colage" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/1-8.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Vegatables Colage</span><span class="gallery__item__subtitle">Crop </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item vegatables" style="position: absolute; left: 0%; top: 588px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/4-9-510x510.jpg);" alt="Tasty Species" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/4-9-510x510.jpg);" alt="Tasty Species">
-                                    </noscript>
-                                    <a title="Tasty Species" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/4-9.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Tasty Species</span><span class="gallery__item__subtitle">Vegatables </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item fruits" style="position: absolute; left: 50%; top: 588px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/3-6-510x510.jpg);" alt="Bannana Life" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" data-ll-status="loaded" class="entered lazyloaded">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/3-6-510x510.jpg);" alt="Bannana Life">
-                                    </noscript>
-                                    <a title="Bannana Life" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/3-6.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Bannana Life</span><span class="gallery__item__subtitle">Fruits </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item animals" style="position: absolute; left: 0%; top: 882px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/4-6-510x510.jpg);" alt="Beautiful Fruits" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/4-6-510x510.jpg);" alt="Beautiful Fruits">
-                                    </noscript>
-                                    <a title="Beautiful Fruits" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/4-6.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Beautiful Fruits</span><span class="gallery__item__subtitle">Animals </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item crop" style="position: absolute; left: 50%; top: 882px;">
-                        <div class="gallery__item">
-                            <div class="gallery__item__inner">
-                                <figure>
-                                    <img width="1" height="1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/5-5-510x510.jpg);" alt="Perfect a Pineapple" data-lazy-src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif">
-                                    <noscript>
-                                        <img width="1" height="1" src="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/themes/nt-agricom/images/blank.gif" style="background-image: url(https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/5-5-510x510.jpg);" alt="Perfect a Pineapple">
-                                    </noscript>
-                                    <a title="Perfect a Pineapple" class="gallery__item__description" href="https://f8g8b9p5.rocketcdn.me/themes/agricom/wp-content/uploads/2017/02/5-5.jpg" data-gallery="gall">
-                                        <span class="gallery__item__title">Perfect a Pineapple</span><span class="gallery__item__subtitle">Crop </span>
-                                    </a>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
+                        }
+                    }
                 </div>
             </div>
         </div>
@@ -283,7 +183,7 @@
                     <!-- star item -->
                     <div class="col-sm-6 col-md-3">
                         <div class="counter__item">
-                            <i class="counter__item__ico counter__item__ico--4"></i>
+                            <iframe src="https://embed.lottiefiles.com/animation/133241"></iframe>
 
                             <p class="counter__item__heading  js-count animate">
                                 Best Alternative for
