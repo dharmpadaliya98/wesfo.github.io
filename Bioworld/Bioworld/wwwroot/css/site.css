@@ -549,3 +549,14 @@ sentinel {
         letter-spacing: 30px;
     }
 }
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+
