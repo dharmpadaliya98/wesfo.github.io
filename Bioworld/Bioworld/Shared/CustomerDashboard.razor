@@ -1,4 +1,4 @@
-﻿@page "/"
+﻿@inject IJSRuntime _js
 
 <!-- start header -->
 <header id="start-screen" class="start-screen--style-1">
@@ -72,3 +72,18 @@
 
 </header>
 <!-- end header -->
+@code
+{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            ToggleSlider();
+        }
+    }
+
+    protected async void ToggleSlider()
+    {
+        await _js.InvokeVoidAsync("vegasSlider");
+    }
+}

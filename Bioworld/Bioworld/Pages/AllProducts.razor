@@ -1,5 +1,6 @@
 ﻿@page "/AllProducts"
 @inject IProductRepository ProductRepository
+@inject ICategoryRepository CategoryRepository
 <header class="intro  align-items-center" style="background-image: url('/images/bg_9 (1).jpg');">
 
     <div class="pattern" style="opacity: 0.15;"></div>
@@ -69,15 +70,15 @@
 <section class="section">
     <div class="container">
         <ul id="gallery-set">
-            @if (ProductsList.Any())
+            @if (CategoryList.Any())
             {
                 <li>
-                    <a class="selected" data-cat="*" href="#">All</a>
+                    <a class="selected" data-cat="*" href="javascript:void(0);">All</a>
                 </li>
-                @foreach (var prod in ProductsList)
+                @foreach (var category in CategoryList)
                 {
                     <li>
-                        <a data-cat="@prod.Category" href="#">@prod.Category</a>
+                        <a data-cat="@category.Name" href="javascript:void(0);">@category.Name</a>
                     </li>
                 }
             }
@@ -90,7 +91,7 @@
                     {
                         @foreach (var prod in ProductsList)
                         {
-                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item @prod.Category">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 js-isotope__item @prod.Category.Name">
                                 <div class="gallery__item">
                                     <div class="gallery__item__inner">
                                         <figure>
@@ -254,12 +255,14 @@
 
 @code {
     private IEnumerable<ProductDTO> ProductsList { get; set; } = new List<ProductDTO>();
+    private IEnumerable<CategoryDTO> CategoryList { get; set; } = new List<CategoryDTO>();
     public bool IsLoading { get; set; }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
+            await LoadCategories();
             await LoadProducts();
         }
     }
@@ -269,6 +272,15 @@
         IsLoading = true;
         StateHasChanged();
         ProductsList = await ProductRepository.GetAll();
+        IsLoading = false;
+        StateHasChanged();
+    }
+
+    private async Task LoadCategories()
+    {
+        IsLoading = true;
+        StateHasChanged();
+        CategoryList = await CategoryRepository.GetAll();
         IsLoading = false;
         StateHasChanged();
     }

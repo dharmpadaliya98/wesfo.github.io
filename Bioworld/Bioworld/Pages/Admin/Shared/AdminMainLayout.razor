@@ -1,0 +1,22 @@
+﻿@inherits LayoutComponentBase
+
+<AuthorizeView Roles="Admin">
+    <Authorized>
+        <body id="reportsPage">
+        <div class="" id="home">
+
+            <AdminNavbar/>
+
+            @Body
+
+            <AdminFooter/>
+
+        </div>
+
+        </body>
+    </Authorized>
+</AuthorizeView>
+
+@code
+{
+}
