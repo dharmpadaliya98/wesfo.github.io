@@ -4292,7 +4292,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 
 .gallery__item__inner {
-    background-color: #4a8b71;
+    /*background-color: #4a8b71;*/
     -webkit-transition: background-color .3s ease-in-out;
     -o-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out

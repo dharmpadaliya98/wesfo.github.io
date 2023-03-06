@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3907f5b4-ac5c-40e9-8031-bca9c86c831f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/.idea.Bioworld/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bioworld.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bioworld.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/Admin/Product/AdminProducts.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/Admin/Product/AdminProducts.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/Admin/Product/ProductUpsert.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/Admin/Product/ProductUpsert.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/Admin/Shared/AdminMainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/Admin/Shared/AdminMainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/Admin/Shared/AdminNavbar.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/Admin/Shared/AdminNavbar.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/AllProducts.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/AllProducts.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pages/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pages/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../../_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/accounts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/add-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/css/templatemo-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/edit-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/check-mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/notification-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/notification-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/notification-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/img/product-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-bg_glass_75_d0e5f5_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-bg_glass_85_dfeffc_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_217bc0_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_469bdd_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_6da8d5_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_d8e7f3_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/images/ui-icons_f9bd01_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/jquery-ui-datepicker/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/js/tooplate-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-admin-master/webfonts/fa-solid-900.woff2" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectId" id="2MYhj9on9U0ET7pWDhqQF5Th9pA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\DHARM98\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\DHARM98\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\DHARM98\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3907f5b4-ac5c-40e9-8031-bca9c86c831f" name="Changes" comment="" />
+      <created>1677950556038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677950556038</updated>
+      <workItem from="1677950557209" duration="2823000" />
+      <workItem from="1677955784491" duration="1660000" />
+      <workItem from="1678014114004" duration="595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

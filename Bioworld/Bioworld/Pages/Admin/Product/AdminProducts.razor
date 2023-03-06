@@ -4,76 +4,212 @@
 @attribute [Authorize]
 
 <AuthorizeView Roles="Admin" Context="authorizeContext">
-    <Authorized>
+<Authorized>
 
-        <section class="section">
-            <div class="container">
-                <_DeleteConfirmation IsParentComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete_Click"></_DeleteConfirmation>
-                <div class="row mt-4">
-                    <div class="col-6">
-                        <h4 class="card-title text-primary">Product List</h4>
+@* <section class="section"> *@
+@*     <div class="container"> *@
+@*         <_DeleteConfirmation IsParentComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete_Click"></_DeleteConfirmation> *@
+@*         <div class="row mt-4"> *@
+@*             <div class="col-6"> *@
+@*                 <h4 class="card-title text-primary">Product List</h4> *@
+@*             </div> *@
+@*             <div class="col-4 offset-2"> *@
+@*                 <a href="product/create" class="btn btn-primary form-control">Add New Product </a> *@
+@*             </div> *@
+@*             <div class="col-12 p-3"> *@
+@*                 @if (ProductsList.Any()) *@
+@*                 { *@
+@*                     <table class="table table-bordered"> *@
+@*                         <thead> *@
+@*                         <tr> *@
+@*                             <th>Name</th> *@
+@*                             <th>Shop Favorites</th> *@
+@*                             <th>Customer Favorites</th> *@
+@*                             <th>Category</th> *@
+@*                             <th>Actions</th> *@
+@*                         </tr> *@
+@*                         </thead> *@
+@*                         <tbody> *@
+@*                         @foreach (var prod in ProductsList) *@
+@*                         { *@
+@*                             <tr> *@
+@*                                 <td> *@
+@*                                     @prod.Name *@
+@*                                 </td> *@
+@*                                 <th> *@
+@*                                     <input type="checkbox" disabled checked="@prod.ShopFavorites"> *@
+@*                                 </th> *@
+@*                                 <th> *@
+@*                                     <input type="checkbox" disabled checked="@prod.CustomerFavorites"> *@
+@*                                 </th> *@
+@*                                 <th> *@
+@*                                     @prod.Category.Name *@
+@*                                 </th> *@
+@*                                 <td> *@
+@*                                     <NavLink href="@($"product/edit/{prod.Id}")" class="btn-primary btn">Edit</NavLink> *@
+@*                                     <button class="btn btn-danger" @onclick="() => HandleDelete(prod.Id)">Delete</button> *@
+@*                                 </td> *@
+@*                             </tr> *@
+@*                         } *@
+@*                         </tbody> *@
+@*                     </table> *@
+@*                 } *@
+@*                 else *@
+@*                 { *@
+@*                     if (IsLoading) *@
+@*                     { *@
+@*                         <_Loader></_Loader> *@
+@*                     } *@
+@*                     else *@
+@*                     { *@
+@*                         //no records *@
+@*                         <p>No records found.</p> *@
+@*                     } *@
+@*                 } *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@* </section> *@
+
+
+<!-- Start Content-->
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+
+                <h4 class="page-title">Products</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+    <_DeleteConfirmation IsParentComponentProcessing="IsLoading" ConfirmationChanged="ConfirmDelete_Click"></_DeleteConfirmation>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-sm-4">
+                            <a href="product/create" class="btn btn-danger mb-2"><i class="mdi mdi-plus-circle me-2"></i> Add Products</a>
+                        </div>
+
                     </div>
-                    <div class="col-4 offset-2">
-                        <a href="product/create" class="btn btn-primary form-control">Add New Product </a>
-                    </div>
-                    <div class="col-12 p-3">
-                        @if (ProductsList.Any())
+                    @if (ProductsList.Any())
+                    {
+                        <div class="row">
+                            @foreach (var prod in ProductsList)
+                            {
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card d-block">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@prod.Category</h5>
+                                        </div>
+                                        <img class="img-fluid" src="@prod.ImageUrl" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@prod.Name</h5>
+                                            <p class="card-text">
+                                                @prod.Description
+                                            </p>
+                                            <a href="javascript: void(0);" class="card-link text-custom">Edit</a>
+                                            <a href="javascript: void(0);" class="card-link text-custom">Delete</a>
+                                        </div> <!-- end card-body-->
+                                    </div> <!-- end card-->
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        if (IsLoading)
                         {
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Shop Favorites</th>
-                                        <th>Customer Favorites</th>
-                                        <th>Category</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach (var prod in ProductsList)
-                                    {
-                                        <tr>
-                                            <td>
-                                                @prod.Name
-                                            </td>
-                                            <th>
-                                                <input type="checkbox" disabled checked="@prod.ShopFavorites">
-                                            </th>
-                                            <th>
-                                                <input type="checkbox" disabled checked="@prod.CustomerFavorites">
-                                            </th>
-                                            <th>
-                                                @prod.Category.Name
-                                            </th>
-                                            <td>
-                                                <NavLink href="@($"product/edit/{prod.Id}")" class="btn-primary btn">Edit</NavLink>
-                                                <button class="btn btn-danger" @onclick="()=>HandleDelete(prod.Id)">Delete</button>
-                                            </td>
-                                        </tr>
-                                    }
-                                </tbody>
-                            </table>
+                            <_Loader></_Loader>
                         }
                         else
                         {
-                            if (IsLoading)
-                            {
-                                <_Loader></_Loader>
-                            }
-                            else
-                            {
-                                //no records
-                                <p>No records found.</p>
-                            }
+                            <p>No records found.</p>
                         }
-                    </div>
-                </div>
-            </div>
-        </section>
-    </Authorized>
-    <NotAuthorized>
-        <p>You don't have permission</p>
-    </NotAuthorized>
+                    }
+                    @* @if (ProductsList.Any()) *@
+                    @* { *@
+                    @*     <div class="table-responsive"> *@
+                    @*         <table class="table table-centered w-100 dt-responsive nowrap" id="products-datatable"> *@
+                    @*             <thead class="table-light"> *@
+                    @*             <tr> *@
+                    @*                 <th class="all" style="width: 20px;"> *@
+                    @*                     <div class="form-check"> *@
+                    @*                         <input type="checkbox" class="form-check-input" id="customCheck1"> *@
+                    @*                         <label class="form-check-label" for="customCheck1">&nbsp;</label> *@
+                    @*                     </div> *@
+                    @*                 </th> *@
+                    @*                 <th class="all">Product</th> *@
+                    @*                 <th>Name</th> *@
+                    @*                 <th>Shop Favorites</th> *@
+                    @*                 <th>Customer Favorites</th> *@
+                    @*                 <th>Category</th> *@
+                    @*                 <th>Actions</th> *@
+                    @*             </tr> *@
+                    @*             </thead> *@
+                    @*             <tbody> *@
+                    @*             @foreach (var prod in ProductsList) *@
+                    @*             { *@
+                    @*                 <tr> *@
+                    @*                     <td> *@
+                    @*                         <div class="form-check"> *@
+                    @*                             <input type="checkbox" class="form-check-input" id="customCheck2"> *@
+                    @*                             <label class="form-check-label" for="customCheck2">&nbsp;</label> *@
+                    @*                         </div> *@
+                    @*                     </td> *@
+                    @*                     <td> *@
+                    @*                         <img src="@prod.ImageUrl" alt="contact-img" title="contact-img" class="rounded me-3" height="48"> *@
+                    @* *@
+                    @*                     </td> *@
+                    @*                     <td> *@
+                    @*                         @prod.Name *@
+                    @*                     </td> *@
+                    @*                     <td> *@
+                    @*                         <input type="checkbox" disabled checked="@prod.ShopFavorites"> *@
+                    @*                     </td> *@
+                    @*                     <td> *@
+                    @*                         <input type="checkbox" disabled checked="@prod.CustomerFavorites"> *@
+                    @*                     </td> *@
+                    @*                     <td> *@
+                    @*                         @prod.Category.Name *@
+                    @*                     </td> *@
+                    @* *@
+                    @*                     <td class="table-action"> *@
+                    @*                         <NavLink href="@($"product/edit/{prod.Id}")" class="btn-primary btn">Edit</NavLink> *@
+                    @*                         <button class="btn btn-danger" @onclick="() => HandleDelete(prod.Id)">Delete</button> *@
+                    @*                     </td> *@
+                    @*                 </tr> *@
+                    @*             } *@
+                    @*             </tbody> *@
+                    @*         </table> *@
+                    @*     </div> *@
+                    @* } *@
+                    @* else *@
+                    @* { *@
+                    @*     if (IsLoading) *@
+                    @*     { *@
+                    @*         <_Loader></_Loader> *@
+                    @*     } *@
+                    @*     else *@
+                    @*     { *@
+                    @*         <p>No records found.</p> *@
+                    @*     } *@
+                    @* } *@
+                </div> <!-- end card-body-->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
+
+</div> <!-- container -->
+</Authorized>
+<NotAuthorized>
+    <p>You don't have permission</p>
+</NotAuthorized>
 </AuthorizeView>
 
 @code {
@@ -110,7 +246,7 @@
         IsLoading = true;
         if (isConfirmed && DeleteProductId != 0)
         {
-            //delete
+    //delete
             await _productRepository.Delete(DeleteProductId);
             await LoadProducts();
             await _jsRuntime.InvokeVoidAsync("HideDeleteConfirmationModal");
